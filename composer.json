@@ -1,5 +1,5 @@
 {
-    "name": "kishore/subdomains",
+    "name": "navalkishore/subdomains",
     "description": "Using this package you can connect to multiple databases, using single instance of code.",
     "type": "laravel",
     "license": "GPU-2",
