@@ -12,6 +12,8 @@
     "minimum-stability": "stable",
     "require": {},
     "scripts": {
-        "post-package-install" : "@php artisan make:migration create_subdomains_table"
+        "post-package-install" : [
+            "@php artisan make:migration create_subdomains_table"
+        ]
     }
 }
