@@ -9,7 +9,7 @@
             "email": "kishore@navalkishore.in"
         }
     ],
-    "minimum-stability": "dev",
+    "minimum-stability": "stable",
     "require": {},
     "scripts": {
         "post-package-install" : "@php artisan make:migration create_subdomains_table"
