@@ -1,0 +1,17 @@
+{
+    "name": "kishore/subdomains",
+    "description": "Using this package you can connect to multiple databases, using single instance of code.",
+    "type": "laravel",
+    "license": "GPU-2",
+    "authors": [
+        {
+            "name": "Naval Kishore G R",
+            "email": "kishore@navalkishore.in"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {},
+    "scripts": {
+        "post-package-install" : "@php artisan make:migration create_subdomains_table"
+    }
+}
